@@ -40,7 +40,9 @@ resource "aws_subnet" "private" {
 }
 
 resource "aws_eip" "nat" {
-  vpc = true
+   tags = {
+    Name = "lamp-nat-eip"
+  }
 }
 
 resource "aws_nat_gateway" "nat" {

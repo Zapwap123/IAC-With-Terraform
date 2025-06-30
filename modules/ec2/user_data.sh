@@ -56,10 +56,6 @@ tee /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json > /dev/nul
       }
     }
   },
-  "metrics": {
-    "append_dimensions": {
-      "AutoScalingGroupName": "${aws:AutoScalingGroupName}"
-    },
     "metrics_collected": {
       "cpu": {
         "measurement": ["cpu_usage_idle", "cpu_usage_user", "cpu_usage_system"],

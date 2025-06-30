@@ -1,9 +1,14 @@
+resource "random_string" "suffix" {
+  length  = 5
+  special = false
+}
+
 resource "aws_db_subnet_group" "lamp" {
-  name       = "lamp-db-subnet-group"
+  name       = "lamp-db-subnet-group-${random_string.suffix.result}"
   subnet_ids = var.db_subnet_ids
 
   tags = {
-    Name = "lamp-db-subnet-group"
+    Name = "lamp-terraform-db-subnet-group"
   }
 }
 
@@ -24,6 +29,6 @@ resource "aws_db_instance" "lamp" {
   multi_az                = false
 
   tags = {
-    Name = "lamp-rds-instance"
+    Name = "lamp-terraform-rds-instance"
   }
 }
