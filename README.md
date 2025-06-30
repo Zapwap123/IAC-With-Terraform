@@ -5,7 +5,7 @@ This project provisions a 3-tier LAMP (Linux, Apache, MySQL, PHP) stack on AWS u
 ## Live Application Link:
 
 ```
-  http://34.244.51.63
+  http://54.74.200.95
 ```
 
 ![Application Page](./Live-Application-Link.png)
