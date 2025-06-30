@@ -26,6 +26,5 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "terraform-lamp-web-instance"
-yes
   }
 }
