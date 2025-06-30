@@ -2,6 +2,14 @@
 
 This project provisions a 3-tier LAMP (Linux, Apache, MySQL, PHP) stack on AWS using Terraform. It includes modular infrastructure-as-code components for VPC, EC2, RDS, and Security Groups.
 
+## Live Application Link:
+
+```
+  http://34.244.51.63
+```
+
+![Application Page](./Live-Application-Link.png)
+
 ## ✅ Architecture
 
 - **Region:** eu-west-1
