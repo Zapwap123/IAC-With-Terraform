@@ -10,6 +10,10 @@ This project provisions a 3-tier LAMP (Linux, Apache, MySQL, PHP) stack on AWS u
 
 ![Application Page](./Live-Application-Link.png)
 
+## 🧱 Architecture Diagram
+
+![Architecture Diagram](./Seth-Anmawen-Architectural-Diagram.drawio.png)
+
 ## ✅ Architecture
 
 - **Region:** eu-west-1
